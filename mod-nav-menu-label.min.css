@@ -1,0 +1,104 @@
+.menu-label {
+    position: absolute;
+    bottom: 85%;
+    z-index: 1;
+    display: inline-block;
+    margin-left: -20px;
+    padding: 2px 4px;
+    border-radius: calc(var(--wd-brd-radius) / 3);
+    color: #fff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 9px;
+    font-family: var(--wd-text-font);
+    line-height: 12px
+}
+
+.menu-label:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    border: 4px solid;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+    border-right-width: 7px;
+    border-left-width: 0
+}
+
+.menu-label-black {
+    background-color: #000;
+    color: #fff
+}
+
+.menu-label-black:before {
+    border-color: #000
+}
+
+.menu-label-grey {
+    background-color: #f1f1f1;
+    color: #333
+}
+
+.menu-label-grey:before {
+    border-color: #f1f1f1
+}
+
+.menu-label-orange {
+    background-color: #FBBC34
+}
+
+.menu-label-orange:before {
+    border-color: #FBBC34
+}
+
+.menu-label-blue {
+    background-color: #00A1BE
+}
+
+.menu-label-blue:before {
+    border-color: #00A1BE
+}
+
+.menu-label-white {
+    background-color: #fff;
+    color: #333
+}
+
+.menu-label-white:before {
+    border-color: #fff
+}
+
+.menu-label-primary {
+    background-color: var(--wd-primary-color)
+}
+
+.menu-label-primary:before {
+    border-color: var(--wd-primary-color)
+}
+
+.menu-label-secondary {
+    background-color: var(--wd-alternative-color)
+}
+
+.menu-label-secondary:before {
+    border-color: var(--wd-alternative-color)
+}
+
+.menu-label-red {
+    background-color: #D41212
+}
+
+.menu-label-red:before {
+    border-color: #D41212
+}
+
+.menu-label-green {
+    background-color: #65B32E
+}
+
+.menu-label-green:before {
+    border-color: #65B32E
+}
